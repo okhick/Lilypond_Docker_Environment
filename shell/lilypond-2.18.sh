@@ -1,0 +1,1 @@
+sh /home/lily/.bin/lilypond_2.18/bin/lilypond $1

@@ -1,0 +1,11 @@
+version: '3'
+services: 
+  lilypond: 
+    container_name: lilypond
+    image: 'lilypond:latest'
+    tty: true
+    volumes: 
+      - ./snippets:/home/lily/snippets
+      - ./projects:/home/lily/projects
+
+
